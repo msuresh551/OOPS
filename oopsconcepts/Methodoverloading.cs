@@ -27,6 +27,9 @@ namespace oopsconcepts
             //Type of parameters
             int sum = 0;
             add(20, 30, ref sum);
+            //sum
+            added(10,20,out sum);
+
             Console.ReadKey();
         }
 
@@ -59,6 +62,13 @@ namespace oopsconcepts
         {
             Console.WriteLine("Reference sum of Two numbers is " + (i + j));
             k = (i + j);
+        }
+
+        public static void added(int i,int j,out int k)
+        {
+            
+            Console.WriteLine("Reference sum of Two numbers is " + (i + j));
+            k = 20;
         }
 
     }

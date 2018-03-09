@@ -13,7 +13,7 @@ namespace Programming
             int num=457889, k = 0;
             int  tmp = 0;
             int[] arr = new int[6];
-
+            
             while (num > 0)
             {
                 tmp = num % 10;

@@ -13,6 +13,8 @@ namespace oopsconcepts
     //4.minimum Salary should be read only.
     ///You can not Control the What gets and what returns from the Variable
     /// </summary>
+    /// : Properties are very versitile. It allows you to choose how you want to expose your data to outside objects. 
+    /// You can inject some amount of data validation when setting values.
     public class Employee
     {
         /// <summary>

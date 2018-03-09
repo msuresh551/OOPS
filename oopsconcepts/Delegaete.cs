@@ -14,12 +14,17 @@ public delegate void Helloword(string test);
        {
            Console.WriteLine("Delegate is "+test );
        }
-       //Delegate is Type safe function Pointer
-       public static void Main()
+        public void testDelegate1(string test)
+        {
+            Console.WriteLine("Delegate is " + test);
+        }
+        //Delegate is Type safe function Pointer
+        public static void Main()
        {
            Delegaete DE = new Delegaete();
            
            Helloword hw=new Helloword(DE.testDelegate);
+            hw += DE.testDelegate1;
            hw(" Type safe function Pointer");
            Console.ReadLine();
            
