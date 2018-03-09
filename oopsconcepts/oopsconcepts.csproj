@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5ED76222-51EB-4D68-ACDF-29DF172938D6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>oopsconcepts</RootNamespace>
+    <AssemblyName>oopsconcepts</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>oopsconcepts.List_Collections</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract.cs" />
+    <Compile Include="AccessModifiers.cs" />
+    <Compile Include="Attribute.cs" />
+    <Compile Include="CustomException.cs" />
+    <Compile Include="Delegaete.cs" />
+    <Compile Include="Delegate1.cs" />
+    <Compile Include="Delegate2.cs" />
+    <Compile Include="Dictionary.cs" />
+    <Compile Include="Diffbwconvertstrings.cs" />
+    <Compile Include="Enumes.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Example.cs" />
+    <Compile Include="Example_Pring.cs" />
+    <Compile Include="Exceptionalhandling.cs" />
+    <Compile Include="Generics.cs" />
+    <Compile Include="InnerException.cs" />
+    <Compile Include="Interface.cs" />
+    <Compile Include="Latebinding.cs" />
+    <Compile Include="List_Collections.cs" />
+    <Compile Include="Methodoverloading.cs" />
+    <Compile Include="MultipleClassesInheritabceUsingInterfaces.cs" />
+    <Compile Include="Namespaces.cs" />
+    <Compile Include="OptionalMethods.cs" />
+    <Compile Include="overrideTostring.cs" />
+    <Compile Include="Partialclass.cs" />
+    <Compile Include="Partialclass1.cs" />
+    <Compile Include="Polymorphism.cs" />
+    <Compile Include="Programming.cs" />
+    <Compile Include="Properties.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection.cs" />
+    <Compile Include="selfintroduction.cs" />
+    <Compile Include="Structure.cs" />
+    <Compile Include="StructVsClass.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
