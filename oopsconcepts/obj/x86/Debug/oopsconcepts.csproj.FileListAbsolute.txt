@@ -14,3 +14,8 @@ G:\C_Drive\New_Desktop\Desktop1\Teaching\Topic_wise_examples\oopsconcepts\oopsco
 G:\C_Drive\New_Desktop\Desktop1\Teaching\Topic_wise_examples\oopsconcepts\oopsconcepts\bin\Debug\oopsconcepts.exe
 G:\C_Drive\New_Desktop\Desktop1\Teaching\Topic_wise_examples\oopsconcepts\oopsconcepts\bin\Debug\oopsconcepts.pdb
 G:\C_Drive\New_Desktop\Desktop1\Teaching\Topic_wise_examples\oopsconcepts\oopsconcepts\obj\x86\Debug\oopsconcepts.csprojResolveAssemblyReference.cache
+F:\my_projects_backups\oopsconcepts\oopsconcepts\obj\x86\Debug\oopsconcepts.exe
+F:\my_projects_backups\oopsconcepts\oopsconcepts\obj\x86\Debug\oopsconcepts.pdb
+F:\my_projects_backups\oopsconcepts\oopsconcepts\bin\Debug\oopsconcepts.exe
+F:\my_projects_backups\oopsconcepts\oopsconcepts\bin\Debug\oopsconcepts.pdb
+F:\my_projects_backups\oopsconcepts\oopsconcepts\obj\x86\Debug\oopsconcepts.csprojResolveAssemblyReference.cache
